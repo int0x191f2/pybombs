@@ -309,7 +309,7 @@ class ConfigManager(object):
         'builddocs': ('OFF', 'Build doxygen while compiling packages? options are: ON, OFF'),
         'cc': ('', 'C Compiler Executable [gcc, clang, icc, etc]'),
         'cxx': ('', 'C++ Compiler Executable [g++, clang++, icpc, etc]'),
-        'makewidth': ('4', 'Concurrent make threads [1,2,4,8...]'),
+        'makewidth': ('2', 'Concurrent make threads [1,2,4,8...]'),
         'packagers': ('pip,apt-get,yumdnf,port,brew,pacman,portage,pkgconfig,cmd', 'Priority of non-source package managers'),
         'keep_builddir': ('', 'When rebuilding, default to keeping the build directory'),
     }
